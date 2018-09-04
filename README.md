@@ -34,4 +34,11 @@ palette = {
 }
 
 colorsnap.snap_color(palette, '#0000ba')
+
+# Using a custom palette with unnamed colors
+palette = ['#4286f4', '#414449']
+
+color_snap.snap_color(palette, '#5588db')
+# >>> ('#5588db', '#4286f4')
+
 ```
