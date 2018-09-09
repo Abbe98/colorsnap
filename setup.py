@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 from os import path
 
-version = '1.1.1'
+version = '1.1.0'
 repo = 'colorsnap'
 
 this_directory = path.abspath(path.dirname(__file__))
